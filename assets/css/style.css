@@ -1,0 +1,42 @@
+body{
+    font-family: 'Syne Mono', monospace;
+
+}
+/*cursor*/
+#autotext {
+    font-size: 40px;
+    margin-right : 10px;
+    letter-spacing: 0.25em;
+    animation: blink 0.75s ;
+    animation-iteration-count:0;
+}
+
+/* blink (clignotement) */
+@keyframes blink {
+    /* from to, tu va DE (from) À (to), ne pas donner de valeur a from done l'effet de clignotement.*/
+    from,
+    to {
+        border-color: transparent;
+    }
+    /* a 50% de l'animation, change la couleur de la bordure.*/
+    50% {
+        border-color: #1ddb00;
+    }
+}
+/* icone cup */
+.fa-trophy{
+    color:#FFD700;
+}
+/* boite modal */
+.modal-dialog{
+    margin-left: 350px;
+    margin-top:300px
+}
+/* titre */
+h1{
+    font-size:100px;
+}
+/* button */
+.choice{
+    font-size:30px;
+}
